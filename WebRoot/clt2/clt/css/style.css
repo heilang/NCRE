@@ -1,0 +1,462 @@
+@charset "utf-8";
+/* 使用重置样式表 */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;    
+}
+body{
+    line-height:1;
+    font-family: '微软雅黑'; 
+    width: 100%;
+    height: 100%;   
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
+}
+
+html,body{
+     height: 100%;
+}
+
+ol,ul{
+    list-style:none;
+}
+blockquote, q{
+    quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after{
+    content: '';
+    content:none;
+}
+
+ 
+/* remember to define focus styles! */
+:focus{
+    outline:0;
+}
+/* remeber to highlight inserts somehow */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+/* tables still need 'cellspacing="0" in the markup' */
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+/*formal style begin*/
+
+header{
+    background: #2CADFA;
+}
+
+.rl{
+    float: right;
+    width: 140px;
+    margin-right:100px;
+}
+.login_ing
+	{
+	color: #ffffff;
+	cursor: pointer;
+	}
+.login_ing a:hover
+	{
+	color:blue;
+	
+	}
+.register,.login,.rl span{ 
+    color: #ffffff;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.background{
+    background: rgb(0,0,0);
+    opacity: .4;
+    width: 100%;
+    min-height: 100%;
+    z-index: 998;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.register-form,.login-form{
+  width: 500px;
+  height: 300px; 
+  z-index: 999;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  border-radius: 15px;
+  background: #FFF2F2;
+  display: none;
+}
+
+.regis,.log{
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.regis p,.log p{
+    margin-top: 15px;
+}
+
+.regis p input,.log p input{
+    width: 200px;
+    height: 25px;
+    border-radius: 15px; 
+}
+
+.regis button,.log button{
+    width: 100px;
+    height: 35px;
+    background: #ffffff;
+    font-family: "微软雅黑"; 
+    margin-left: 180px;
+    margin-top: 20px;
+    border:1px solid #aaaaaa;
+    transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out; 
+    cursor: pointer;
+}
+
+.regis button:hover,.log button:hover{
+    background: #2CADFA;
+    border: 0;
+     color: #ffffff;
+}
+
+.close{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+}
+
+.close:hover{
+    transform:rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+.index-logo img{
+         margin:0 14% 2% ;
+         width: 70%;
+}
+ 
+.logo{
+    margin-left: 20px;
+}
+
+.menu {
+    height: 40px;
+    width: 100%;
+} 
+ 
+.link{ 
+    display: block;
+    text-decoration: none;
+    color: #ffffff;  
+    width: 20%;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    
+}
+
+.link:hover{
+  
+    background: #ffffff;
+    color: #2CADFA;
+    cursor: pointer;
+}
+
+.expand{
+    width: 100%; 
+    height:  0px;   
+    position: relative; 
+    background: #ffffff; 
+    border-bottom: 1px solid #2CADFA;
+    border-radius: 0 0 15px 15px; 
+    overflow: hidden;  
+}
+
+.expandlist{
+    width: 500%;
+    height: 40px;     
+}
+
+.expand-div{
+    width: 20%; 
+    text-align: center;
+    float: left;   
+} 
+
+.expand-div a{
+    text-decoration: none;
+    color: #2CADFA;
+    line-height: 40px;
+} 
+
+.billboard { 
+    height: 250px;
+    width: 500px;
+    border: 1px solid #2CADFA;
+    border-radius: 15px;
+    margin-left: 8%;
+    margin-top: 1%;
+    float: left;
+}
+
+.title{
+    color: #ffffff;
+    background: #2CADFA; 
+    padding: 8px 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.title p,.title span {
+    margin-left: 15px;
+}
+
+.content ul li{
+    line-height: 30px;
+    border-bottom: 1px dashed #2CADFA; 
+}
+
+.content ul li span{
+    margin-left: 20px;
+}
+
+.box{  
+    position: relative;
+    min-height: 100%;
+}
+
+.main{ 
+    padding-bottom: 150px;
+}
+
+.sidebar{ 
+    position: absolute;  
+    width: 200px;
+    height: 400px;
+    background: #2CADFA;  
+    display: inline-block;
+}
+
+.sidebar ul li{
+    width:  200px;
+    height: 35px;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    float: left;
+    line-height: 30px;
+    color: #ffffff; 
+    cursor: pointer;
+    background: url(../img/point.png) no-repeat 140px;
+    transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out; 
+    position: relative;
+}
+
+.sidebar ul li span,.sidebar ul li a{
+    margin-left: 25px;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+}
+ 
+.sidebar ul li:hover{
+     background-position: 150px;
+}
+
+.sidebar ul li ul{
+ 
+    position: absolute;
+    width: 200px;
+    left: 200px;
+    top: -1px; 
+    display: none; 
+}
+
+.sidebar ul li:hover ul{
+    display: block; 
+}
+ 
+.sidebar ul li ul li{
+    background: #2CADFA; 
+    line-height: 35px;
+    z-index: 100; 
+}
+
+.sidebar ul li ul li a{ 
+    color: #ffffff;
+    line-height: 35px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+.content-area{
+    position: relative; 
+    left: 220px ;
+    right: 10px;  
+    top: 30px;  
+    width: 80%;  
+}
+
+
+.content-list p{
+   font-size: 35px;
+   border-bottom: 3px solid #2CADFA;
+   line-height: 50px;
+}
+
+.content-list ul li{ 
+    border-bottom: 1px dashed #2CADFA;
+}
+
+.content-list ul li a {
+   text-decoration: none;
+    color: #000000;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.content-list ul li span{
+    float: right;
+    margin-right: 10px;
+     line-height: 30px;
+}
+
+.pages{
+    margin-top: 20px;   
+    display: block;
+    margin-left: 35%;
+}
+
+.pages ul li{
+    float: left; 
+    margin-left: 5px;
+    }
+
+.right-side{
+     width: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    float: right;
+}
+
+.daily-q{  
+    
+    height: 250px;
+    width: 300px;
+    border: 1px solid #2CADFA;
+    border-radius: 15px;
+}
+
+
+.daily-q span{
+   line-height: 40px;
+   margin-left: 5px;
+}
+
+.daily-q button{
+    border: 0;
+    border-radius: 5px;
+    background: #2CADFA;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px #888888;
+    margin-left: 5px;
+}
+
+.article-title {
+   border-bottom: 3px solid #2CADFA;
+}
+
+.article-title span{
+    margin-left: 10px;
+    font-size: 25px;
+}
+ 
+.article-content p{
+   line-height: 40px;
+}
+ 
+.form h1{
+   text-align: center;
+}
+
+.form p{
+    line-height: 40px;  
+}
+
+.photo{
+    float: right;
+}
+
+#imghead {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);}
+
+.submit{
+    width: 200px;
+    height: 50px;  
+    background: rgba(255,255,255,1);
+    font-family: "微软雅黑";
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -webkit-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out; 
+    margin-left: 35%;
+    cursor: pointer;
+} 
+
+.submit:hover{
+     background: #2CADFA;
+     color: #ffffff;
+     border: 0;
+}
+
+footer{ 
+    position: absolute;
+    bottom: 0;
+    background: #2CADFA;
+    width: 100%;   
+}
+
+.state{
+    padding: 10px;
+}
+
+.state p{
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}

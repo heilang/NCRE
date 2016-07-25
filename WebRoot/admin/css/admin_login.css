@@ -1,0 +1,305 @@
+*
+{
+
+margin:0;
+padding:0;
+}
+body
+{
+background:url(../images/login_bg11.jpg) no-repeat;
+ <!--
+ -webkit-animation-name: login_bg;  
+    -webkit-animation-duration: 30s;  
+    -webkit-animation-timing-function: linear;  
+    -webkit-animation-direction: normal;  
+    -webkit-animation-iteration-count: infinite;
+	
+	 -moz-animation-name: login_bg; 
+    -moz-animation-duration: 30s;  
+    -moz-animation-timing-function: linear;  
+    -moz-animation-direction: normal;  
+    -moz-animation-iteration-count: infinite;
+	
+	
+	 -o-animation-name: login_bg;  
+    -o-animation-duration: 30s;  
+    -o-animation-timing-function: linear;  
+    -o-animation-direction: normal;  
+    -o-animation-iteration-count: infinite;
+	-->
+}
+
+#login_window
+{
+
+text-align:center;
+border-top:#999999 solid 1px;
+border-left:#999999 solid 1px;
+-webkit-border-radius: 7px ;
+-moz-border-radius: 7px ;
+-o-border-radius: 7px ;
+-khtml-border-radius: 7px ;
+border-radius: 7px ;
+width:400px;
+height:200px;
+background:#404040;
+margin:88px auto 50px;
+
+ -webkit-animation-name: login_window;  
+    -webkit-animation-duration: 6s;  
+    -webkit-animation-timing-function: linear;  
+    -webkit-animation-direction: normal;  
+    -webkit-animation-iteration-count: infinite;
+
+	 -moz-animation-name: login_window;  
+    -moz-animation-duration: 6s;  
+    -moz-animation-timing-function: linear;  
+    -moz-animation-direction: normal;  
+    -moz-animation-iteration-count: infinite;
+	
+	 -khtml-animation-name: login_window;  
+    -khtml-animation-duration: 6s;  
+    -khtml-animation-timing-function: linear;  
+    -khtml-animation-direction: normal;  
+    -khtml-animation-iteration-count: infinite;
+	
+	 -o-animation-name: login_window;  
+    -o-animation-duration: 6s;  
+    -o-animation-timing-function: linear;  
+    -o-animation-direction: normal;  
+    -o-animation-iteration-count: infinite;
+	
+	
+	
+	}
+#timeArea
+{
+
+margin:0 auto;
+text-align:center;
+}
+@-khtml-keyframes login_window /* Safari 和 Chrome */
+{
+0%   {
+box-shadow: #000000 -10px 15px 15px;
+}
+25%
+{
+box-shadow: #000000 0px 15px 15px;
+}
+50%
+{
+box-shadow: #000000 10px 15px 15px;
+}
+75% {
+
+box-shadow: #000000 0px 15px 15px;
+
+
+}
+
+100%
+{
+box-shadow: #000000 -10px 15px 15px;
+
+}
+}
+@-webkit-keyframes login_window /* Safari 和 Chrome */
+{
+0%   {
+box-shadow: #000000 -10px 15px 15px;
+}
+25%
+{
+box-shadow: #000000 0px 15px 15px;
+}
+50%
+{
+box-shadow: #000000 10px 15px 15px;
+}
+75% {
+
+box-shadow: #000000 0px 15px 15px;
+
+
+}
+
+100%
+{
+box-shadow: #000000 -10px 15px 15px;
+
+}
+}
+
+@-moz-keyframes login_window /* Safari 和 Chrome */
+{
+0%   {
+box-shadow: #000000 -10px 15px 15px;
+}
+25%
+{
+box-shadow: #000000 0px 15px 15px;
+}
+50%
+{
+box-shadow: #000000 10px 15px 15px;
+}
+75% {
+
+box-shadow: #000000 0px 15px 15px;
+
+
+}
+
+100%
+{
+box-shadow: #000000 -10px 15px 15px;
+
+}
+}
+@-o-keyframes login_window /* Safari 和 Chrome */
+{
+0%   {
+box-shadow: #000000 -10px 15px 15px;
+}
+25%
+{
+box-shadow: #000000 0px 15px 15px;
+}
+50%
+{
+box-shadow: #000000 10px 15px 15px;
+}
+75% {
+
+box-shadow: #000000 0px 15px 15px;
+
+
+}
+
+100%
+{
+box-shadow: #000000 -10px 15px 15px;
+
+}
+}
+
+
+<!--
+@-webkit-keyframes login_bg
+{
+0%{background:url(../images/login_bg11.jpg) no-repeat;}
+50%{background:url(../images/login_bg12.jpg) no-repeat;}
+100%{background:url(../images/login_bg13.jpg) no-repeat;}
+
+}
+
+@-moz-keyframes login_bg
+{
+0%{background:url(../images/login_bg11.jpg) no-repeat;}
+50%{background:url(../images/login_bg12.jpg) no-repeat;}
+100%{background:url(../images/login_bg13.jpg) no-repeat;}
+
+}
+
+
+@-o-keyframes login_bg
+{
+0%{background:url(../images/login_bg11.jpg) no-repeat;}
+50%{background:url(../images/login_bg12.jpg) no-repeat;}
+100%{background:url(../images/login_bg13.jpg) no-repeat;}
+
+}
+
+-->
+
+
+
+input[type=text], input[type=password] {
+
+  text-shadow: 1px 1px 1px black;
+  background: rgba(2, 1, 1, 0.38);
+  border: 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+ -khtml-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);	
+	-o-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.06);
+}
+input[type=text]:focus, input[type=password]:focus {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+ 
+}
+
+.form-control
+{
+
+width:260px;
+height:50px;
+
+margin:0 0px 0 20px;
+
+
+
+}
+#bt{
+width:50px;
+height:50px;
+-webkit-border-radius: 25px ;
+-khtml-border-radius: 25px ;
+-moz-border-radius: 25px ;
+-o-border-radius: 25px ;
+ border-radius: 25px;
+
+background:#00a2d3;
+border:0;
+position:relative;
+-webkit-transition:-webkit-transform 1s;
+-khtml-transition:-webkit-transform 1s;
+-moz-transition:-moz-transform 1s;
+-o-transition:-o-transform 1s;
+transition:transform 1s;
+
+}
+#bt:before
+{
+content:'';
+
+position:absolute;
+
+
+
+
+}
+#bt:after
+{
+content:'';
+position:absolute;
+top:15px;
+left:12px;
+width:25px;
+
+height:19px;
+-khtml-transform:rotate(-180deg);
+-webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+background:url(../images/arrow.png);
+
+z-index:50;
+
+}
+
+#bt:hover
+{
+
+-khtml-transform:rotate(180deg);
+-webkit-transform:rotate(180deg);
+-moz-transform:rotate(180deg);
+-o-transform:rotate(180deg);
+transform:rotate(180deg);
+
+} 

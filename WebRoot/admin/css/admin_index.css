@@ -1,0 +1,103 @@
+*
+{
+margin:0;
+padding:0;
+}
+body{
+background:#f1f1f1;}
+#head_nav
+{
+
+left:0;
+top:0;
+background:#000000;
+position:fixed;
+width:100%;;
+height:70px;
+filter:alpha(opacity=50); 
+ -moz-opacity:0.9; 
+ -khtml-opacity: 0.9; 
+ opacity: 0.9; 
+ z-index:1;
+
+
+}
+#left_nav
+{
+left:0;
+top:0;
+height:100%;
+width:150px;
+background:#000000;
+position:fixed;
+filter:alpha(opacity=50); 
+ -moz-opacity:0.9; 
+ -khtml-opacity: 0.9; 
+ opacity: 0.9; 
+z-index:2;
+
+}
+
+
+#accordion
+{
+margin-top:150px;
+}
+#content
+{
+margin:0px 0 0 150px;
+
+position:absolute;
+width:1200px;
+height:600px;
+
+}
+.content:hover{
+
+box-shadow:10px 10px 10px;
+}
+.content
+{
+color:black;
+width:300px;
+height:180px;
+
+
+border-radius:50px;
+
+
+text-align:center;
+line-height:180px;
+font-size:24px;
+
+transition:all 0.5s;
+
+}
+#practice
+{
+background:url(../images/content1.jpg) no-repeat;
+
+
+}
+#test
+{
+background:url(../images/content2.jpg) no-repeat;
+}
+
+#announcement
+{
+background:url(../images/content3.jpg) no-repeat;
+}
+
+#lecture
+{
+
+background:url(../images/content4.jpg) no-repeat;
+
+}
+#content ul li{
+
+margin:80px 0 0px 180px;
+float:left;
+
+}
